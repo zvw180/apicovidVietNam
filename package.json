@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "apicovidVietNam nodejs",
   "main": "index.js",
+  "homepage": "https://github.com/zvw180/apicovidVietNam/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "predeploy": "npm run storybook:build",
-    "deploy": "gh-pages -d storybook-static"
+    "deploy": "gh-pages -d storybook-static",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "api",
