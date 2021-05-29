@@ -8,7 +8,7 @@
 
 </div>
 
-> New axios docs website: [click here](https://zvw180.github.io/apicovidVietNam/)
+> Test : [click here](https://apicovidvn.herokuapp.com/api/)
 
 
 
