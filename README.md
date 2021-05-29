@@ -37,10 +37,10 @@ npm install cheerio
 npm install express
 ```
 
-Xem trang web tại: http://localhost:8080/api/
+Xem trang web tại: http://localhost:3000/api/
 
 ```sh
-127.0.0.1:8080
+127.0.0.1:3000
 ```
 
 ## License
