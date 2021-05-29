@@ -1,6 +1,20 @@
 {
   "name": "apicovidVietNam",
   "version": "1.0.0",
+  "description": "apicovidVietNam nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "api",
+    "covid",
+    "vietnam",
+    "nodejs"
+  ],
+  "author": "zvw180",
+  "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.9",
     "express": "^4.17.1"
