@@ -1,0 +1,11 @@
+{
+  "name": "apicovidVietNam",
+  "version": "1.0.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1"
+  }
+}
