@@ -46,6 +46,12 @@ async function getdatavn() {
 
 
 const app = express();
+const port = 3000;
+
+app.get('/', function (req, res) {
+    res.send('<h1><a href="./api/">start</a></h1>')
+});
+
 app.get('/api/', async (req, res) => {
     try {
         const vietnam = await getdatavn();
@@ -58,7 +64,6 @@ app.get('/api/', async (req, res) => {
         })
     }
 });
-app.listen(8080, () => {
-    console.log("running on port 8080");
-});
+
+app.listen(process.env.PORT || port, () => console.log(`Example app listening at http://localhost:${port}`));
 
